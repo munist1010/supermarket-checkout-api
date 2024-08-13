@@ -11,7 +11,7 @@
     "start": "nodemon server.js"
   },
   "name": "aaronkelly",
-  "description": "This challenge is designed to showcase your capability to develop high-quality, production-ready code. Spend the necessary amount of time you feel is needed to demonstrate your standard for quality code.",
+  "description": "An API for SKU checkout calculations",
   "version": "1.0.0",
   "main": "server.js",
   "devDependencies": {},

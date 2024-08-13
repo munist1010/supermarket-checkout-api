@@ -24,3 +24,7 @@ This is a Node.js API designed to emulate a checkout system which takes a string
 ## Instructions for launching
     "npm run start" to launch the API server
     "npm run test" to launch the Jest testing suite
+
+
+### TODO // 
+    Create a MongoDB database to store offer objects
