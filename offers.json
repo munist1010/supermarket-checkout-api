@@ -1,0 +1,44 @@
+{
+    "selectBuy": {
+        "ABC": {
+            "price": 100,
+            "offerType": "selectBuy",
+            "offerItem": 3,
+            "offerValue": 60
+        },
+        "AB": {
+            "price": 80,
+            "offerType": "selectBuy",
+            "offerItem": 2,
+            "offerValue": 50
+        }
+    },
+    "multiBuy": {
+        "A": {
+            "price": 50,
+            "offerType": "multiBuy",
+            "offerItem": 3,
+            "offerValue": 130
+        },
+        "B": {
+            "price": 30,
+            "offerType": "multiBuy",
+            "offerItem": 2,
+            "offerValue": 45
+        }
+    },
+    "noOffer": {
+        "C": {
+            "price": 20,
+            "offerType": "No offer",
+            "offerItem": 1,
+            "offerValue": 20
+        },
+        "D": {
+            "price": 15,
+            "offerType": "No offer",
+            "offerItem": 1,
+            "offerValue": 15
+        }
+    }
+}

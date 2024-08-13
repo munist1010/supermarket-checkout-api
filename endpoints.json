@@ -1,0 +1,22 @@
+{
+    "GET /": {
+        "description": "Serves a static HTML page used as a GUI for this API"
+    },
+    "GET /api": {
+        "description": "Serves a JSON representation of all of the available endpoints in this API"
+    },
+
+    "GET /api/offers": {
+        "description": "Returns the current offers available at checkout in the form of a SKU letter key-value pair object"
+    },
+
+    "POST /api": {
+        "description": "Accepts a string of SKU letters representing a checkout basket and returns a total price, taking currently available offers into account",
+        "exampleRequest": {
+            "skuString": "AAABBBCCCDDD"
+        },
+        "exampleResponse": {
+            "price": 310
+        }
+    }
+}
